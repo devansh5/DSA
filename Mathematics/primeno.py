@@ -13,6 +13,8 @@ for i in range(2,n):
 for i in range(2,len(is_prime)):
     if is_prime[i]==True:
         print(i,sep="",end=" ")
+
+# Time Complexity is O(n*log(logn))
 # for j in range(2,n):  
 #     for i in range(j*j,n,j):
 #         print(i)
