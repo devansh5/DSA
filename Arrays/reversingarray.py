@@ -15,6 +15,7 @@ def rotateArr(a,k,n):
     reversearray(a,0,n)
     reversearray(a,0,n-k)
     reversearray(a,n-k,n)
+    return a
 
-
-
+m=rotateArr(a,k,n)
+print(m)
