@@ -1,4 +1,16 @@
 /*The method pop which return the element poped out of the queue*/
+//  The structure of the class is
+#include<bits/stdc++.h>
+using namespace std;
+class StackQueue{
+private:   
+    // These are STL stacks ( http://goo.gl/LxlRZQ )
+    stack<int> s1;
+    stack<int> s2;
+public:
+    void push(int);
+    int pop();
+}; 
 int StackQueue :: pop()
 {
         // Your Code
