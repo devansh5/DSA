@@ -1,13 +1,19 @@
 // You have given a binary tree and print the level order traversal with there level followed by $
 
-            1
-    2               3
-4       5       6       7
+//             1
+//     2               3
+// 4       5       6       7
 
-    8
+//     8
 
 // then to print is 1 $ 2 3 $ 4 5 6 7 $ 8 $ 
-
+#include <bits/stdc++.h>
+using namespace std;
+struct Node{
+    int data;
+    struct Node* right;
+    struct Node* left;
+};
 
 void levelorder(Node* node)
 {
