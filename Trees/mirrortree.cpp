@@ -11,6 +11,10 @@
 // T1:     1     T2:     1
 //       /   \         /   \
 
+
+// time-complexity - O(N)
+// space-complexity - O(height of the tree)
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -37,5 +41,5 @@ int areMirror(Node* a , Node* b)
         return areMirror(a->right,b->left) && areMirror(a->left,a->right);
     }
     return 0;
-    
+
 }
