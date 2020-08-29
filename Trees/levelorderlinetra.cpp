@@ -34,7 +34,7 @@ void levelorder(Node* node)
 
 
             if(temp->left!=NULL)
-            {
+              {
                 q.push(temp->left);
             }
 
