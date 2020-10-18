@@ -1,4 +1,9 @@
- struct Node
+// approch : - level order traversal and check at each level with the queue size if it is size>0 then make the  temp->next=q.front();else 
+// temp->next=NULL;
+
+
+
+struct Node
 {
   int data;
   Node *left,  *right;
